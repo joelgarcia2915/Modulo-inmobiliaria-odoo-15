@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <odoo>
+    <data>
+         <menuitem id="menu_inmobiliaria" parent="" action="inmobiliaria-lifter.inmobiliaria.action"
+                  web_icon="inmobiliaria-lifter.security/static/description/icon.png"/>
+
+        <menuitem id="menu_treasury_report_main"
+                        name="Inmobiliarios"
+                        parent="menu_report_inmobiliaria"/>
+
+        <menuitem id="menu_type_propiedad"
+                        name="Tipo de propiedad"
+                        action="action_property_type"
+                        parent="menu_treasury_report_main"/>
+    </data>
+ </odoo>

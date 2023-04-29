@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <record id="res_inmobiliaria_tree" model="ir.ui.view">
+            <field name="name">res_inmobiliaria.tree</field>
+            <field name="model">res.inmobiliaria</field>
+            <field name="arch" type="xml">
+                <tree string="Asignaciones">
+                    <field name="property_type"/>
+                    <field name="property_name"/>
+                    <field name="price"/>
+                    <field name="room_number"/>
+                    <field name="bathroom_number"/>
+                    <field name="total_area"/>
+                    <field name="area_measure"/>
+                    <field name="available_data"/>
+                    <field name="sales_agent"/>
+                </tree>
+            </field>
+        </record>
+
+      <record id="res_inmobiliaria_form" model="ir.ui.view">
+            <field name="name">res_inmobiliaria.form</field>
+            <field name="model">res.inmobiliaria</field>
+            <field name="arch" type="xml">
+                   <form string="Inmobiliario">
+                       <div class="oe_title">
+
+                       </div>
+                        <field name="property_type"/>
+                        <field name="property_name"/>
+                        <field name="description"/>
+                        <field name="address"/>
+                        <field name="price"/>
+                        <field name="room_number"/>
+                        <field name="bathroom_number"/>
+                        <field name="total_area"/>
+                        <field name="area_measure"/>
+                        <field name="available_data"/>
+                        <field name="sales_agent"/>
+                        <field name="photos"/>
+                   </form>
+          </field>
+      </record>
+
+</odoo>
